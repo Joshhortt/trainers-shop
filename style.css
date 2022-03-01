@@ -54,8 +54,8 @@ nav {
 
 .slider {
     background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
-    overflow: hidden;
+   /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    overflow: hidden;*/
   }
   .sliderWrapper {
     display: flex;
@@ -94,6 +94,7 @@ nav {
     z-index: 1;
   }
 
+  /* slider sub title - NEW SEASON*/
   .sliderSubTitle {
     position: absolute;
     top: 20%;
@@ -105,6 +106,7 @@ nav {
     z-index: 1;
   }
 
+   /* slider price*/
   .sliderPrice {
     position: absolute;
     padding: 5px;
@@ -118,6 +120,7 @@ nav {
     z-index: 1;
   }
 
+   /* buy button*/
   .buyButton {
     position: absolute;
     top: 50%;
@@ -139,3 +142,42 @@ nav {
     background-color: white;
     color: black;
   }
+
+   /* slider Item background color*/
+  .sliderItem:nth-child(1) .sliderBg {
+    background-color: #369e62;
+  }
+
+  .sliderItem:nth-child(2) .sliderBg {
+    background-color: rebeccapurple;
+  }
+
+  .sliderItem:nth-child(3) .sliderBg {
+    background-color: teal;
+  }
+
+  .sliderItem:nth-child(4) .sliderBg {
+    background-color: cornflowerblue;
+  }
+
+  .sliderItem:nth-child(5) .sliderBg {
+    background-color: pink;
+  }
+
+  /* slider price color*/
+
+.sliderItem:nth-child(1) .sliderPrice {
+  color: #369e62;
+}
+.sliderItem:nth-child(2) .sliderPrice {
+  color: #d5b4f7;
+}
+.sliderItem:nth-child(3) .sliderPrice {
+  color: teal;
+}
+.sliderItem:nth-child(4) .sliderPrice {
+  color: cornflowerblue;
+}
+.sliderItem:nth-child(5) .sliderPrice {
+  color: pink;
+}
