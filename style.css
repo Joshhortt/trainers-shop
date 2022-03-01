@@ -75,6 +75,7 @@ nav {
     height: 750px;
     border-radius: 50%;
     position: absolute;
+    /*remove the background color later on*/
     background-color: yellow;
   }
 
@@ -115,4 +116,26 @@ nav {
     color: white;
     border: 1px solid gray;
     z-index: 1;
+  }
+
+  .buyButton {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    padding: 10px;
+    border: 1px solid gray;
+    /*remove the border-radius if it doesn't look good later on*/
+    border-radius: 4px;
+    /*change the background color if it doesn't look good later on*/
+    background-color: black;
+    z-index: 1;
+    cursor: pointer;
+  }
+
+  .buyButton:hover {
+    background-color: white;
+    color: black;
   }
