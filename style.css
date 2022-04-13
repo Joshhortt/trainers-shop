@@ -8,6 +8,16 @@ body {
   margin: 0;
 }
 
+.cupon {
+  font-size: 0.8rem;
+  color: #369e62;
+}
+
+.t22 {
+  color: white;
+  font-weight: bolder;
+}
+
 nav {
   background-color: #111;
   color: white;
@@ -578,7 +588,7 @@ footer {
   }
 
   .copyright{
-     font-size:12px;
+     font-size: 10px;
   }
 
   .payment{
